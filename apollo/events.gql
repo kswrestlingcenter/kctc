@@ -1,0 +1,14 @@
+query {
+    events{
+    id
+    Title
+    Description
+  	Date
+    EntryFee
+    StartTime
+    EndTime
+    Picture {
+      formats
+    }
+  }
+}

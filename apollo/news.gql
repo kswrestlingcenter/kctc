@@ -1,0 +1,11 @@
+query {
+  categories {
+    id
+    Name
+    Description
+    Date
+    media {
+      formats
+    }
+  }
+}
